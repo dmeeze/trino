@@ -41,7 +41,7 @@ https://github.com/trinodb/trino/releases/download/479/trino-postgresql-479.zip
 
 ### 476 or before - Maven
 Versions prior to trino 477 also publish to the [Maven Central Repository](https://central.sonatype.com/). 
-Refer to [](plugins-list) for details.  The specific location for maven pacakges 
+Refer to [](plugins-list) for details.  The specific location for maven packages 
 is derived from the Maven coordinates of each plugin as defined in the 
 `pom.xml` of the source code for the plugin.
 
