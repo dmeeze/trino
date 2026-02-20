@@ -29,10 +29,21 @@ automatically during Trino startup.
 Typically, downloading a plugin is not necessary because Trino binaries include
 many plugins as part of the binary package.
 
-Every Trino release publishes each plugin as a ZIP archive to the [Maven Central
-Repository](https://central.sonatype.com/). Refer to [](plugins-list) for details.
-The specific location is derived from the Maven coordinates of each plugin as
-defined in the `pom.xml` of the source code for the plugin.
+### Since 477 - Github
+
+Every Trino release since release 477 publishes each plugin as a ZIP archive
+to [github](https://github.com/trinodb/trino/releases).
+
+For example, the PostgreSQL connector plugin can be downloaded at
+```
+https://github.com/trinodb/trino/releases/download/479/trino-postgresql-479.zip
+```
+
+### 476 or before - Maven
+Versions prior to trino 477 also publish to the [Maven Central Repository](https://central.sonatype.com/). 
+Refer to [](plugins-list) for details.  The specific location for maven pacakges 
+is derived from the Maven coordinates of each plugin as defined in the 
+`pom.xml` of the source code for the plugin.
 
 For example, the PostgreSQL connector plugin can be found in the
 `plugin/trino-postgresql` directory, and the `pom.xml` file contains the
@@ -133,8 +144,8 @@ project. Refer to the [](/develop) for further details.
 
 The following list of plugins is available from the Trino project. They are
 included in the build and release process and the resulting the binary packages.
-You can also [download](plugins-download) them from the Maven Central Repository
-with the listed coordinates.
+For versions earlier than 477, you can also [download](plugins-download) them 
+from the Maven Central Repository with the listed coordinates.
 
 :::{list-table} List of plugins 
 :widths: 25, 25, 25, 25 
