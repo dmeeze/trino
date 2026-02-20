@@ -34,7 +34,7 @@ many plugins as part of the binary package.
 Every Trino release since release 477 publishes each plugin as a ZIP archive
 to [github](https://github.com/trinodb/trino/releases).
 
-For example, the PostgreSQL conenctor plugin can be downloaded at
+For example, the PostgreSQL connector plugin can be downloaded at
 ```
 https://github.com/trinodb/trino/releases/download/479/trino-postgresql-479.zip
 ```
